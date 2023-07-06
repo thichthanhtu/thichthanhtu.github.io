@@ -1,0 +1,150 @@
+html {
+  background-color: #1C1F2B;
+  color: #FFFFFA;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+}
+
+@media (min-width: 767px) {
+  body {
+    margin: 0 100px;
+  }
+}
+
+header {
+  margin: auto;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3eb1d0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-size: 1.4rem;
+}
+
+/* Style for book lists */
+.books {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.book {
+  margin: 1em;
+}
+
+.book-thumbnail {
+  max-width: 200px;
+}
+
+.book-title {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+}
+
+/* Style for blockquote */
+
+#ct {
+  height: 150px;
+  width: 370px;
+  border: 1px solid #f1c40f;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  padding: 15px;
+}
+
+#ct span {
+  background: #1C1F2B;
+  color: #f1c40f;
+  padding:0 10px;
+  font-size: 2rem;
+  position: relative; 
+  top: -28px;
+}
+
+.corner {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transform: rotate(-45deg);  
+  position: absolute;
+  background: #1C1F2B;
+}
+
+#left_top {
+  top: -16px;
+  left: -16px;
+  border-color: transparent transparent #f1c40f transparent;
+}
+
+#right_top {
+  top: -16px;
+  right: -16px;
+  border-color: transparent transparent transparent #f1c40f;
+}
+
+#left_bottom {
+  bottom: -16px;
+  left: -16px;
+  border-color: transparent #f1c40f transparent transparent;
+}
+
+#right_bottom {
+  bottom: -16px;
+  right: -16px;
+  border-color: #f1c40f transparent transparent transparent;
+}
+
+#ct p {
+  font-size: 1.8rem;
+  line-height: 2em;
+  margin-top: -40px;
+}
+
+@media (max-width: 450px) {
+  #ct {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  #ct span {
+    font-size: 1.6rem;
+    position: relative;
+    top: -20px;
+  }
+
+  #ct p {
+    font-size: 1.4rem;
+    line-height: 1.8em;
+  }
+
+  header {
+    font-size: 1.6rem;
+  }
+}
+
+
